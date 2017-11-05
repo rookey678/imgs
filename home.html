@@ -1,0 +1,2348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.7">
+    <!-- End of generator meta tag -->
+    <link data-silex-static="" href="//editor.silex.me/static/2.7/normalize.css" rel="stylesheet">
+    <link data-silex-static="" href="//editor.silex.me/static/2.7/front-end.css" rel="stylesheet">
+    <script data-silex-static="" type="text/javascript" src="//editor.silex.me/static/2.7/jquery.js"></script>
+    <script data-silex-static="" type="text/javascript" src="//editor.silex.me/static/2.7/jquery-ui.js"></script>
+    <script data-silex-static="" type="text/javascript" src="//editor.silex.me/static/2.7/pageable.js"></script>
+    <script data-silex-static="" type="text/javascript" src="//editor.silex.me/static/2.7/front-end.js"></script>
+
+    <style type="text/css" class="silex-style">
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:700,300');
+        .normal {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+        }
+        
+        .top-text .normal {
+            color: white;
+        }
+        /* mobile version */
+        
+        body.enable-mobile {
+            padding: 0;
+        }
+        
+        .silex-pages {
+            display: none;
+        }
+        /*  */
+        
+        .heading1 {
+            text-shadow: 2px -2px 5px rgba(0, 0, 0, 0.75);
+            letter-spacing: -3px;
+            font-size: 150px;
+            font-weight: 700;
+            line-height: 150px;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            text-rendering: optimizelegibility;
+            color: #1ABC9C;
+        }
+        
+        .heading2 {
+            font-size: 36px;
+            font-weight: 300;
+            letter-spacing: -1;
+            text-rendering: optimizelegibility;
+            text-transform: uppercase;
+        }
+        
+        .heading3 {
+            font-size: 26px;
+            font-weight: 300;
+            text-rendering: optimizelegibility;
+            text-transform: uppercase;
+            color: #666666;
+        }
+        
+        .go-down {
+            cursor: pointer;
+        }
+        
+        body .top-pic {
+            left: 0;
+            right: 0;
+            width: initial;
+            width: auto;
+        }
+        
+        .arrow .normal {
+            font-size: 110px;
+            line-height: 15px;
+            color: white;
+        }
+        
+        .middle-text .normal {
+            color: white;
+        }
+        
+        .button {
+            color: white;
+            line-height: 35px;
+        }
+        
+        .button.page-link-active {
+            background-color: #FC6F5C;
+        }
+        
+        .col>div {
+            columns: 3;
+            column-gap: 50px;
+            -moz-columns: 2;
+            -moz-column-gap: 50px;
+            -webkit-columns: 3;
+            -webkit-column-gap: 50px;
+            text-align: justify;
+        }
+    </style>
+    <script type="text/javascript" class="silex-script">
+        $(function () {
+            $('.go-down').click(function () {
+                $('html,body').animate({scrollTop: 960}, 500);
+            });
+        });
+    </script>
+    <style class="silex-inline-styles" type="text/css">
+        .body-initial {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .silex-id-1489143154958-1 {
+            top: 5px;
+            left: 5px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: rgba(51, 51, 51, 1);
+        }
+        
+        .silex-id-1489143154957-0 {
+            min-height: 817px;
+            background-color: transparent;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1489143154957-0 {
+                top: 0px;
+                left: 12px;
+                width: 445px;
+                min-height: 960px;
+            }
+        }
+        
+        .silex-id-1440798151836-0 {
+            width: 100px;
+            top: 633px;
+            left: 443px;
+            background-color: rgba(26, 188, 156, 0.447059);
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: rgb(0, 0, 0);
+            border-right-color: rgb(0, 0, 0);
+            border-bottom-color: rgb(0, 0, 0);
+            border-left-color: rgb(0, 0, 0);
+            min-height: 100px;
+        }
+        
+        .silex-id-1484954814876-0 {
+            min-height: 33px;
+            width: 54px;
+            top: 38px;
+            left: 24px;
+        }
+        
+        .silex-id-1440793860642-0 {
+            width: 1215px;
+            top: 0px;
+            left: -130px;
+            background-color: transparent;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+            border-left-width: 0px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            min-height: 568px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1440793860642-0 {
+                top: 75px;
+                left: 11px;
+                width: 423px;
+                min-height: 558px;
+            }
+        }
+        
+        .silex-id-1489143327627-3 {
+            top: 1000px;
+            left: 5px;
+            background-color: transparent;
+            min-width: 1174px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1489143327627-3 {
+                top: 1020px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1489143327626-2 {
+            min-height: 1210px;
+            background-color: transparent;
+            top: 15px;
+            left: 288px;
+            width: 1174px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1489143327626-2 {
+                min-height: 1014px;
+            }
+        }
+        
+        .silex-id-1440798996856-3 {
+            width: 489px;
+            top: 129px;
+            left: 0px;
+            min-height: 94px;
+        }
+        
+        .silex-id-1509826226864-8 {
+            width: 932px;
+            min-height: 1009px;
+            top: 273px;
+            left: 235px;
+        }
+        
+        .silex-id-1509826305915-9 {
+            width: 934px;
+            top: 273px;
+            left: 225px;
+            min-height: 3545px;
+        }
+        
+        .silex-id-1509826837124-51 {
+            width: 130px;
+            top: 1px;
+            left: 1px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509826837124-48 {
+            width: 130px;
+            top: 1px;
+            left: 1043px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509826922849-53 {
+            width: 130px;
+            top: 1px;
+            left: 1px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509827270633-0 {
+            width: 130px;
+            top: 1px;
+            left: 1px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509826837124-50 {
+            width: 130px;
+            top: 2px;
+            left: 532px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509827405454-2 {
+            width: 911px;
+            min-height: 1051px;
+            top: 274px;
+            left: 242px;
+        }
+        
+        .silex-id-1509889598617-3 {
+            width: 130px;
+            top: 2px;
+            left: 532px;
+            background-color: rgba(241, 106, 92, 1);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509890263218-0 {
+            height: 400px;
+            width: 400px;
+            background-color: transparent;
+            top: 288px;
+            left: 278px;
+        }
+        
+        .silex-id-1440798669277-2 {
+            width: 186px;
+            top: 287px;
+            left: 310px;
+            min-height: 236px;
+            background-image: url('pawn.png');
+        }
+        
+        .silex-id-1509826490116-24 {
+            width: 936px;
+            background-color: rgb(255, 255, 255);
+            min-height: 128px;
+            top: 4809px;
+            left: 517px;
+        }
+        
+        .silex-id-1509826375154-20 {
+            width: 940px;
+            top: 46px;
+            left: -1px;
+            border-top-width: 1px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+            border-left-width: 0px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            min-height: 100px;
+        }
+        
+        .silex-id-1509826375154-23 {
+            width: 130px;
+            top: -7px;
+            left: 156px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509826375154-21 {
+            width: 130px;
+            top: -7px;
+            left: 383px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509826375154-19 {
+            width: 130px;
+            top: -8px;
+            left: 616px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509826594381-25 {
+            top: 2087px;
+            left: 5px;
+            min-width: 722px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1509826594381-25 {
+                top: 3293px;
+                left: 0px;
+            }
+        }
+        
+        .silex-id-1509826594381-26 {
+            min-height: 245px;
+            background-color: rgb(255, 255, 255);
+            top: 15px;
+            left: 514px;
+            width: 722px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1509826594381-26 {
+                min-height: 2771px;
+            }
+        }
+        
+        .silex-id-1509826594381-27 {
+            width: 130px;
+            top: 67px;
+            left: 612px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509826594381-28 {
+            width: 940px;
+            top: 141px;
+            left: 10px;
+            border-top-width: 1px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+            border-left-width: 0px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            min-height: 81px;
+        }
+        
+        .silex-id-1509826594381-29 {
+            width: 130px;
+            top: 67px;
+            left: 426px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509826594381-30 {
+            width: 130px;
+            top: 66px;
+            left: 241px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+        
+        .silex-id-1509826594382-31 {
+            width: 130px;
+            top: 68px;
+            left: 231px;
+            background-color: rgb(83, 161, 173);
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            min-height: 40px;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <meta content="/api/1.0/github/exec/put/silex-templates/wip/perso2" name="publicationPath">
+
+
+
+    <script type="text/javascript" class="silex-json-styles">
+        [{"desktop":{"body-initial":{"background-color":"rgb(255, 255, 255)","background-image":""},"silex-id-1440793860642-0":{"width":"1215px","top":"0px","left":"-130px","background-color":"transparent","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"5px","border-bottom-left-radius":"5px","border-top-width":"0px","border-right-width":"0px","border-bottom-width":"0px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","min-height":"568px"},"silex-id-1440798151836-0":{"width":"100px","top":"633px","left":"443px","background-color":"rgba(26, 188, 156, 0.447059)","border-top-left-radius":"50px","border-top-right-radius":"50px","border-bottom-right-radius":"50px","border-bottom-left-radius":"50px","border-top-width":"1px","border-right-width":"1px","border-bottom-width":"1px","border-left-width":"1px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)","min-height":"100px"},"silex-id-1440798669277-2":{"width":"186px","top":"287px","left":"310px","min-height":"236px","background-image":"url('pawn.png')"},"silex-id-1440798996856-3":{"width":"489px","top":"129px","left":"0px","min-height":"94px"},"silex-id-1440800016088-6":{"width":"960px","top":"134px","left":"0px","min-height":"621px"},"silex-id-1440800468283-8":{"width":"130px","top":"67px","left":"426px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1440800509589-9":{"width":"130px","top":"67px","left":"612px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1440801730160-14":{"width":"940px","top":"141px","left":"10px","border-top-width":"1px","border-right-width":"0px","border-bottom-width":"0px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","min-height":"81px"},"silex-id-1484954814876-0":{"min-height":"33px","width":"54px","top":"38px","left":"24px"},"silex-id-1489143154957-0":{"min-height":"817px","background-color":"transparent"},"silex-id-1489143154958-1":{"top":"5px","left":"5px","background-position":"center center","background-size":"cover","background-repeat":"no-repeat","background-color":"rgba(51,51,51,1)"},"silex-id-1489143327626-2":{"min-height":"1210px","background-color":"transparent","top":"15px","left":"288px","width":"1174px"},"silex-id-1489143327627-3":{"top":"1000px","left":"5px","background-color":"transparent","min-width":"1174px"},"silex-id-1489143411591-4":{"min-height":"931px","background-color":"transparent"},"silex-id-1489143528708-6":{"min-height":"2236px","background-color":"rgb(255, 255, 255)","top":"15px","left":"409px","width":"932px"},"silex-id-1489143627407-8":{"min-height":"221px","background-color":"rgb(255, 255, 255)","top":"15px","left":"395px","width":"960px"},"silex-id-1495975627992-0":{"width":"400px","height":"400px","background-color":"transparent","top":"343px","left":"276px"},"silex-id-1509825569219-2":{"width":"130px","top":"66px","left":"241px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826099007-4":{"width":"960px","background-color":"","min-height":"96px","top":"19px","left":"395px"},"silex-id-1509826125511-6":{"width":"130px","top":"68px","left":"231px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826226864-8":{"width":"932px","min-height":"1009px","top":"273px","left":"235px"},"silex-id-1509826305915-9":{"width":"934px","top":"273px","left":"225px","min-height":"3545px"},"silex-id-1509826375151-12":{"width":"130px","top":"67px","left":"612px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826375151-13":{"width":"940px","top":"141px","left":"10px","border-top-width":"1px","border-right-width":"0px","border-bottom-width":"0px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","min-height":"81px"},"silex-id-1509826375151-14":{"width":"130px","top":"67px","left":"426px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826375151-15":{"width":"130px","top":"66px","left":"241px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826375151-16":{"width":"130px","top":"68px","left":"231px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826375151-11":{"min-height":"239px","background-color":"rgb(255, 255, 255)","top":"15px","left":"395px","width":"960px"},"silex-id-1509826375154-19":{"width":"130px","top":"-8px","left":"616px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826375154-20":{"width":"940px","top":"46px","left":"-1px","border-top-width":"1px","border-right-width":"0px","border-bottom-width":"0px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","min-height":"100px"},"silex-id-1509826375154-21":{"width":"130px","top":"-7px","left":"383px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826375154-22":{"width":"130px","top":"66px","left":"241px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826375154-23":{"width":"130px","top":"-7px","left":"156px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826375154-18":{"min-height":"109px","background-color":"rgb(255, 255, 255)","top":"15px","left":"395px","width":"960px"},"silex-id-1509826490116-24":{"width":"936px","background-color":"rgb(255, 255, 255)","min-height":"128px","top":"4809px","left":"517px"},"silex-id-1509826594381-27":{"width":"130px","top":"67px","left":"612px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826594381-28":{"width":"940px","top":"141px","left":"10px","border-top-width":"1px","border-right-width":"0px","border-bottom-width":"0px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","min-height":"81px"},"silex-id-1509826594381-29":{"width":"130px","top":"67px","left":"426px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826594381-30":{"width":"130px","top":"66px","left":"241px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826594382-31":{"width":"130px","top":"68px","left":"231px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826594381-25":{"top":"2087px","left":"5px","min-width":"722px"},"silex-id-1509826594381-26":{"min-height":"245px","background-color":"rgb(255, 255, 255)","top":"15px","left":"514px","width":"722px"},"silex-id-1509826594401-34":{"width":"130px","top":"67px","left":"612px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826594401-35":{"width":"940px","top":"141px","left":"10px","border-top-width":"1px","border-right-width":"0px","border-bottom-width":"0px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","min-height":"81px"},"silex-id-1509826594402-36":{"width":"130px","top":"67px","left":"426px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826594402-37":{"width":"130px","top":"66px","left":"241px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826594402-38":{"width":"130px","top":"68px","left":"231px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826594401-33":{"min-height":"239px","background-color":"rgb(255, 255, 255)","top":"15px","left":"395px","width":"960px"},"silex-id-1509826830790-41":{"width":"130px","top":"67px","left":"612px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826830790-42":{"width":"940px","top":"141px","left":"10px","border-top-width":"1px","border-right-width":"0px","border-bottom-width":"0px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","min-height":"81px"},"silex-id-1509826830790-43":{"width":"130px","top":"67px","left":"426px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826830790-44":{"width":"130px","top":"66px","left":"241px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826830791-45":{"width":"130px","top":"68px","left":"231px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826830790-40":{"min-height":"263px","background-color":"rgb(255, 255, 255)","top":"15px","left":"514px","width":"722px"},"silex-id-1509826837124-48":{"width":"130px","top":"1px","left":"1043px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826837124-50":{"width":"130px","top":"2px","left":"532px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826837124-51":{"width":"130px","top":"1px","left":"1px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826837124-52":{"width":"130px","top":"68px","left":"231px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509826837124-47":{"min-height":"377px","background-color":"rgb(255, 255, 255)","top":"15px","left":"514px","width":"722px"},"silex-id-1509826922849-53":{"width":"130px","top":"1px","left":"1px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509827270633-0":{"width":"130px","top":"1px","left":"1px","background-color":"rgb(83, 161, 173)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509827405454-2":{"width":"911px","min-height":"1051px","top":"274px","left":"242px"},"silex-id-1509889598617-3":{"width":"130px","top":"2px","left":"532px","background-color":"rgba(241,106,92,1)","border-top-left-radius":"11px","border-top-right-radius":"11px","border-bottom-right-radius":"11px","border-bottom-left-radius":"11px","min-height":"40px"},"silex-id-1509890263218-0":{"height":"400px","width":"400px","background-color":"transparent","top":"288px","left":"278px"}},"mobile":{"silex-id-1440793860642-0":{"top":"75px","left":"11px","width":"423px","min-height":"558px"},"silex-id-1489143154957-0":{"top":"0px","left":"12px","width":"445px","min-height":"960px"},"silex-id-1489143528708-6":{"min-height":"2771px"},"silex-id-1489143327627-3":{"top":"1020px","left":"0px"},"silex-id-1489143327626-2":{"min-height":"1014px"},"silex-id-1509826375151-11":{"min-height":"2771px"},"silex-id-1509826375154-18":{"min-height":"2771px"},"silex-id-1509826594381-26":{"min-height":"2771px"},"silex-id-1509826594381-25":{"top":"3293px","left":"0px"},"silex-id-1509826594401-33":{"min-height":"2771px"},"silex-id-1509826830790-40":{"min-height":"2771px"},"silex-id-1509826837124-47":{"min-height":"2771px"}},"componentData":{"silex-id-1495975627992-0":{"name":"form1","templateName":"form"},"silex-id-1509890263218-0":{"name":"slideshow1","templateName":"slideshow","slides":[{"image":[{"url":"/api/1.0/github/exec/get/imgs/master/image008.png","name":"image008.png","size":1158233}],"bgColor":"#ffffff"}]}}}]
+    </script>
+    <title></title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.2" data-silex-viewport="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/static/2.7/unslider/unslider-min.js" data-silex-static="" data-dependency=""></script>
+    <link rel="stylesheet" href="/static/2.7/unslider/unslider.css" data-silex-static="" data-dependency="">
+    <style id="current-page-style">
+        .page-reviews {
+            display: inherit;
+        }
+    </style>
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
+</head>
+
+<body data-silex-id="body-initial" class="body-initial enable-mobile silex-runtime" data-silex-type="container">
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1489143154958-1 section-element page-home paged-element page-resume page-reviews" data-silex-id="silex-id-1489143154958-1">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1489143154957-0 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1489143154957-0">
+
+            <div data-silex-id="silex-id-1440798151836-0" class="editable-style silex-id-1440798151836-0 container-element go-down page-home paged-element page-resume page-reviews" data-silex-type="container">
+
+                <div data-silex-type="image" class="editable-style silex-id-1484954814876-0 image-element page-home paged-element page-resume page-reviews" data-silex-id="silex-id-1484954814876-0"><img src="../../../../../../../libs/templates/silex-templates/perso2/assets/scroll_arrow.png" class="silex-element-content"></div>
+            </div>
+            <div data-silex-id="silex-id-1440793860642-0" class="editable-style silex-id-1440793860642-0 text-element top-text page-home paged-element page-resume page-reviews" data-silex-type="text" style="">
+                <div class="silex-element-content normal">
+                    <h1 style="text-align: center;" class="heading1">
+                        <font color="#ffffff">David </font>
+                        <font color="#3d85c6">P.</font>&nbsp;Ford</h1>
+                    <div style="text-align: center;">
+                        <h2 class="heading2">actor ~ singer ~ dancer ~ guitarist ~ songwriter ~ playwright </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1489143327627-3 section-element" data-silex-id="silex-id-1489143327627-3">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1489143327626-2 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1489143327626-2">
+
+            <div data-silex-id="silex-id-1440798996856-3" class="editable-style silex-id-1440798996856-3 text-element" data-silex-type="text">
+                <div class="silex-element-content normal">
+                    <h2 class="heading2">David P. Ford</h2>
+                </div>
+            </div>
+
+
+
+            <div data-silex-type="text" class="editable-style silex-id-1509826226864-8 text-element page-home paged-element" data-silex-id="silex-id-1509826226864-8" style="">
+                <div class="silex-element-content normal">
+                    <h3 class="heading3">
+                        <font size="7">Biography</font>
+                    </h3>
+                    <div>
+                        <font color="#000000" face="arial, sans-serif"><span style="background-color: rgb(255, 255, 255);"><div><font size="2">I began my career in the theater at the age of 12 when the local Central Pennsylvania high school needed someone who could play "Young Patrick" in the musical "Mame".&nbsp; They asked someone else first, but he said no.&nbsp; Ah, fate.&nbsp; It turned out I was pretty good.&nbsp; I kept up with theater, doing every show I could get into.</font></div><div><font size="2"><br></font></div><div><font size="2">In high school I performed in a couple of rock bands with the most success coming in the form of an album of original material by my band "Group Therapy" entitled "Little Fishy".&nbsp; (About a man who falls in love with a fish that he is eating for dinner.)&nbsp; We recorded that album with the winnings from a Battle of the Bands.&nbsp; This is where I began to play the guitar and write music.&nbsp; I also had quite a career as a pole-vaulter.&nbsp; There’s a story about that here.</font></div><div><font size="2">&nbsp;</font></div><div><font size="2">I went on to get my BFA in Drama from Carnegie Mellon University. I played many strange characters and earned the nickname "Naked Ford the Animal Boy" for a pair of shows I did that involved very little clothing and lots of time on the floor.&nbsp; Needless to say, I graduated with honors and won the Adylene Roth Levine Memorial Award for excellence in Acting.</font></div><div><font size="2">&nbsp;</font></div><div><font size="2">Upon graduating, I took a job with the Pittsburgh Civic Light Opera and recieved my Actor's Equity Association membership.&nbsp; Through the connections I made there, I was whisked off to Germany, Austria, and Switzerland to do a tour of "Beauty and the Beast" (Die Schone und Das Biest), all in German!&nbsp; Several regional gigs between, I was again on tour in Germany, Austria, Switzerland, and Italy with the musical "West Side Story".&nbsp; This time in English,&nbsp;</font></div><div><font size="2">&nbsp;</font></div><div><font size="2">After the second time overseas, I returned to do more regional gigs until I was cast as "Lyle/Chuck understudy" in the First National Tour of the Broadway musical "Footloose".&nbsp; After that, I moved on to still more regional work.&nbsp; An opportunity presented itself when "The Full Monty" was seeking a last-minute Dance Captain/Swing for their First National Tour production.&nbsp; I was on the road for nearly three years with the show, eventually taking over the role of "Keno/Ethan understudy".&nbsp; During that tour I teamed up with a couple of the teen-age boys to write some silly music in the form of the band "Pedestrian Crossing", or "Ped-X".</font></div><div><font size="2">&nbsp;</font></div><div><font size="2">Following that stint on the road, I joined the Screen Actors Guild and have branched out into the film and television industry.&nbsp; Click here to see my film reel.</font></div><div><font size="2"><br></font></div><div><font size="2">While playing "Jackson", the lead guitarist, in the musical "Pump Boys and Dinettes" at the Pennsylvania Center Stage, I realized I could do more with my music talents, and so I wrote a rock-musical called "Printed Name".&nbsp; I have also written a one-act play, "The Red Buffalo," and I am putting together a collection of the funny songs I have written.&nbsp; I will begin work on a second musical soon.</font></div><div><font size="2"><br></font></div><div><font size="2">The summer of 2007 I was in "Sessions", as “Dylan,” at the Peter Jay Sharp Theater on W. 42nd St.&nbsp; In the fall, I was in “The Pioneer” at the Metropolitan Playhouse, and in the spring of 2008, I performed there again in the historical drama, “Year One of the Empire,”</font></div><div><font size="2">&nbsp;</font></div><div><font size="2">I moved to Gainesville, Florida in July of 2008 and have established a company called Tonewood Family Music to provide Music Together® classes to the kids of Gainesville.&nbsp; I went back to New York City late September -- by special request of the playwright -- to do a reading of “Year One of the Empire” (Moises Kaufman, dir.) at the New York Theater Workshop as part of their pre-election series.&nbsp;&nbsp;</font></div><div><font size="2"><br></font></div><div><font size="2">When I'm not writing scripts or music, I dabble in other creative arts from pencil sketching to woodcarving.&nbsp; I'm currently completing the chess set you can see in the "Extras" section.</font></div><div><font size="2"><br></font></div><div><font size="2">To find out more about me, drop me an e-mail at:&nbsp; David@DavidPatrickFord.com</font></div><div><font size="2"><br></font></div></span></font>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1509826305915-9" class="editable-style text-element silex-id-1509826305915-9 page-resume paged-element" data-silex-type="text" style="">
+                <div class="silex-element-content normal">
+                    <h3 class="heading3">
+                        <table border="0" cellspacing="0" cellpadding="0" align="left" width="577" style="font-family: Times; background-color: rgb(255, 255, 255); width: 576.95pt;">
+                            <tbody>
+                                <tr style="height: 60.7pt;">
+                                    <td width="577" colspan="9" valign="bottom" style="width: 576.95pt; padding: 0in 5.4pt; height: 60.7pt;">
+                                        <p class="MsoNormal" align="center" style="margin-right: 0in; margin-left: 0in; font-size: 10pt; text-align: center;"><span style="font-size: 44pt; font-family: Papyrus;">David Patrick Ford</span><span style="font-size: 40pt; font-family: Papyrus;">&nbsp;</span><span style="font-family: Papyrus;">~AEA/SAG~</span></p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 12.5pt;">
+                                    <td width="404" colspan="7" valign="bottom" style="width: 404.1pt; padding: 0in 5.4pt; height: 12.5pt;">
+                                        <p class="MsoNormal" align="center" style="margin-right: 0in; margin-left: 0in; font-size: 10pt; text-align: center;">&nbsp;<span style="font-family: Papyrus;"><o:p></o:p></span></p>
+                                    </td>
+                                    <td width="173" colspan="2" valign="bottom" style="width: 172.85pt; padding: 0in 5.4pt; height: 12.5pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 14.3pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><span style="font-size: 14pt;"><b><u>Tours:<o:p></o:p></u></b></span></p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><b><u>Role:<o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><b><u>Theater:<o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><b><u>Director/Choreographer:<o:p></o:p></u></b></p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 12.5pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 12.5pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<b><u><o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 12.5pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<b><u><o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 12.5pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<b><u><o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 12.5pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<b><u><o:p></o:p></u></b></p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">The Full Monty</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Keno/Ethan/D.C.<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">First National Tour</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Jack O’Brien/Jerry Mitchell</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Footloose</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Lyle/Chuck<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">First National Tour</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Walter Bobbie/A.C. Ciulla</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Die Schöne und das Biest</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Sessel<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">European Tour (In German)</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">David Bell</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">West Side Story</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Gee-Tar/Riff<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">European Tour</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Alan Johnson</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 9.85pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 14.3pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><span style="font-size: 14pt;"><b><u>NYC Theater:<o:p></o:p></u></b></span></p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<i><o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Macbeth</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Macbeth<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Gallery Players Theater</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Mark Harborth</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Sessions</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Dylan (Original Cast)<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Peter Jay Sharp Theater</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Steve Petrillo</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Year One of the Empire (Reading)</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Beveridge/Music<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">New York Theater Workshop</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Moises Kaufman</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Year One of the Empire</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Beveridge, et al<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Metropolitan Playhouse</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Alex Roe</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">The Pioneer (O’Neill one-acts)</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Tim Moran, et al<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Metropolitan Playhouse</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Mark Harborth</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Phillip Heart: Private Eye</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>McLintock/Mr. Grimm<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Stella Adler Studios</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">David Tyson</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<i><o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><span style="font-size: 14pt;"><b><u>Regional:</u></b></span></p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<i><o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<i><o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">The Full Monty</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Teddy/Jerry<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Westchester Broadway</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Richard Stafford</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Little Shop of Horrors</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Seymour &amp; Orin U/S<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Westchester Broadway</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Patricia Wilcox</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Aida</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Radames<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Playhouse on the Square</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Scott Ferguson/Jay Rapp</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">The Who’s Tommy</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Tommy<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Playhouse on the Square</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Shorey Walker</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Pump Boys and Dinettes</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Jackson<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Penna. Center Stage</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Steve Rankin/Spence Ford</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">West Side Story</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Riff<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Human Race Theater Co.</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Scott Stoney/Stephen Mills</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">West Side Story</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Action<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">MUNY St. Louis</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Kevin Backstrom</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">West Side Story</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Snowboy<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Kansas City Starlight</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Barry Ivan</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Into the Woods</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Jack<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Pittsburgh Civic Light Opera</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Glenn Casale</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Into the Woods</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Jack<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Sacramento Light Opera</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Glenn Casale</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Little Me</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Bernie<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">North Shore Music Theater</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">David Bell</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Little Me</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Bernie<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Alliance Theater Company</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">David Bell</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Phantom</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Ens./Fight Capt.<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Walnut Street Theater</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Charles Abbott</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Singin’ in the Rain</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Rod<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Walnut Street Theater</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Charles Abbott</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Oklahoma</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Mike<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">North Carolina Theater</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Tee Scatuorchio</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Desert Song</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Ensemble<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Pittsburgh Civic Light Opera</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">David Bell</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Annie</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Ensemble<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Pittsburgh Civic Light Opera</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Charlie Repole</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">42<sup>nd</sup>&nbsp;Street</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Ensemble<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Pittsburgh Civic Light Opera</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Charlie Repole/Tony Parisi</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">My Fair Lady</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Cockney<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Pittsburgh Civic Light Opera</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Charlie Repole/ Liza Gennaro</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">South Pacific</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Henry<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Struther’s Library Theater</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Joe Deer/Gary Slavin</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">110 in the Shade</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Ensemble<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Struther’s Library Theater</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Joe Deer/Gary Slavin</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 9.85pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Anything Goes</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Ensemble<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Struther’s Library Theater</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Joe Deer/ Gary Slavin</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 9.85pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">She Loves Me</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Ladislav Sipos<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Carnegie Mellon University</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Stephen Kanee/Judy Conte</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 9.85pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Pippin</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Leading Player<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Carnegie Mellon University</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Joe Deer</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 9.85pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">The Swan</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>The Swan<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Carnegie Mellon University</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Margorie Hayes</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 9.85pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 9.85pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;
+                                            <o:p></o:p>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 14.3pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><span style="font-size: 14pt;"><b><u>Film/TV/Commercial:<o:p></o:p></u></b></span></p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><b><u>Role:<o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><b><u>Medium:<o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><b><u>Director:<o:p></o:p></u></b></p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 12.5pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 12.5pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<b><u><o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 12.5pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<b><u><o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 12.5pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<b><u><o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 12.5pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<b><u><o:p></o:p></u></b></p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Forensic Files: Capitol Crimes</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Thomas Druce<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Cable TV (Court TV)</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Mike Jordan</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">The Five Senses</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Lead<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">HD Computer Art (SVA)</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">J.D. Kim</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><a href="//www.youtube.com/watch?v=8900W-2zAIQ" style="color: red;">New Balance Spec: The Classroom</a></p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Professor<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Spec Commercial</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Christian Clark/Angela Trevino</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Spy No Evil</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Spy<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Student Film (NYU)</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Perry Kroll</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">A Mother’s Curse</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Damien<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Student Film (NYU)</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Thomas L. Sun</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">American Miracles</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Ken Sloan<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Student TV (NYU)</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">John Engle (Professor 8000%)</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Mercy</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Dr. Faust<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Student Film (SVA)</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Michael Supey</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 11.6pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Two</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Man (Lead)<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Student Film (CMU)</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 11.6pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Tom Lee</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10.75pt;">
+                                    <td width="152" colspan="2" valign="bottom" style="width: 152.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Live at Five</p>
+                                    </td>
+                                    <td width="108" valign="bottom" style="width: 108.05pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><i>Bar Tough Guy<o:p></o:p></i></p>
+                                    </td>
+                                    <td width="171" colspan="5" valign="bottom" style="width: 171pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Independent Film</p>
+                                    </td>
+                                    <td width="145" valign="bottom" style="width: 145.45pt; padding: 0in 5.4pt; height: 10.75pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">Averie Storck</p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 6.5pt;">
+                                    <td width="577" colspan="9" valign="bottom" style="width: 576.95pt; padding: 0in 5.4pt; height: 6.5pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><span style="font-size: 12pt;"><b>______________________________________________________________________________________<br><br></b></span><span style="font-size: 12pt;"><o:p></o:p></span></p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 14.3pt;">
+                                    <td width="126" valign="bottom" style="width: 126.05pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><span style="font-size: 14pt;"><b><u>Training/Awards:<br><br></u></b></span><b><u><o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="164" colspan="3" valign="bottom" style="width: 163.6pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<span style="font-size: 11pt;"><o:p></o:p></span></p>
+                                    </td>
+                                    <td width="52" colspan="2" valign="bottom" style="width: 51.5pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<span style="font-size: 11pt;"><o:p></o:p></span></p>
+                                    </td>
+                                    <td width="236" colspan="3" valign="bottom" style="width: 235.8pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<span style="font-size: 11pt;"><o:p></o:p></span></p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 55.05pt;">
+                                    <td width="577" colspan="9" valign="bottom" style="width: 576.95pt; padding: 0in 5.4pt; height: 55.05pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">BFA in Drama from Carnegie Mellon University.&nbsp;<br><a href="//www.davidpatrickford.com/award.html" style="color: red;">Adylene Roth Levine Memorial</a>&nbsp;Award for Excellence in Acting from CMU<br>Voice teachers
+                                            in NYC:&nbsp;&nbsp;David Hicox, Christopher Schuman, Thom Culcasi<br>On Camera Scene Study with Alex Portugal<br>The Super Eight (Camera Styles) with Dani Super<br><br></p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 14.3pt;">
+                                    <td width="126" valign="bottom" style="width: 126.05pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;"><span style="font-size: 14pt;"><b><u>Special Skills:</u></b></span><b><u><br><br><o:p></o:p></u></b></p>
+                                    </td>
+                                    <td width="164" colspan="3" valign="bottom" style="width: 163.6pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<span style="font-size: 11pt;"><o:p></o:p></span></p>
+                                    </td>
+                                    <td width="52" colspan="2" valign="bottom" style="width: 51.5pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<span style="font-size: 11pt;"><o:p></o:p></span></p>
+                                    </td>
+                                    <td width="236" colspan="3" valign="bottom" style="width: 235.8pt; padding: 0in 5.4pt; height: 14.3pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt;">&nbsp;<span style="font-size: 11pt;"><o:p></o:p></span></p>
+                                    </td>
+                                </tr>
+                                <tr style="height: 4.45pt;">
+                                    <td width="577" colspan="9" valign="bottom" style="width: 576.95pt; padding: 0in 5.4pt; height: 4.45pt;">
+                                        <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 10pt; text-align: justify;">Accents/Dialects.&nbsp;&nbsp;Conversational French and German.&nbsp;&nbsp;<a href="//www.davidpatrickford.com/certification.html" style="color: red;">Certified by SAFD</a>&nbsp;in Stage Combat for Unarmed, Rapier
+                                            &amp; Dagger, and Quarterstaff.&nbsp;&nbsp;Guitar playing.&nbsp;&nbsp;Songwriting.&nbsp;&nbsp;Rock-n-roll singing.&nbsp;&nbsp;Athletic dance/Partnering/Lifts.&nbsp;&nbsp;Pencil sketches.&nbsp;&nbsp;Origami.&nbsp;&nbsp;Physical
+                                            theater/Mask.&nbsp;&nbsp;Physical Comedy.&nbsp;&nbsp;Rollerblading/Skating.&nbsp;&nbsp;Baseball/softball.&nbsp;&nbsp;Running.&nbsp;&nbsp;Cycling.&nbsp;&nbsp;Woodcarving.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </h3>
+                </div>
+            </div>
+
+            <div data-silex-id="silex-id-1509826837124-51" class="editable-style text-element button paged-element page-home silex-id-1509826837124-51" data-silex-type="text" style="" data-silex-href="#!page-resume">
+                <div class="silex-element-content normal">
+                    <div style="text-align: center;">Resume</div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1509826837124-48" class="editable-style text-element button silex-id-1509826837124-48 page-home paged-element page-resume page-reviews" data-silex-type="text" style="">
+                <div class="silex-element-content normal">
+                    <div style="text-align: center;">Music</div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1509826922849-53" class="editable-style text-element button silex-id-1509826922849-53 page-resume paged-element" data-silex-type="text" style="" data-silex-href="#!page-home">
+                <div class="silex-element-content normal">
+                    <div style="text-align: center;">Home</div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1509827270633-0" class="editable-style text-element button silex-id-1509827270633-0 page-reviews paged-element" data-silex-type="text" style="" data-silex-href="#!page-resume">
+                <div class="silex-element-content normal">
+                    <div style="text-align: center;">Resume</div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1509826837124-50" class="editable-style text-element button silex-id-1509826837124-50 page-home paged-element page-resume page-reviews page-link-active" data-silex-type="text" style="" data-silex-href="#!page-reviews">
+                <div class="silex-element-content normal">
+                    <div style="text-align: center;">Reviews</div>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style silex-id-1509827405454-2 text-element page-reviews paged-element" data-silex-id="silex-id-1509827405454-2" style="">
+                <div class="silex-element-content normal">
+                    <table border="0" cellspacing="0" cellpadding="0" style="font-family: Times; margin-left: 38.55pt;">
+                        <tbody>
+                            <tr>
+                                <td colspan="4" valign="top" style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 13.5pt; background-color: rgb(255, 255, 255);"><u>REVIEWS, PHOTOS, AND PROMOTIONAL MATERIAL</u></span></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" valign="top" style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; background-color: rgb(255, 255, 255);"><a href="http://davidpatrickford.com/home.html#!page-pg1"><b style=""><font color="#000000">Click here</font></b></a> for information.</span></p>
+                                </td>
+                                <td valign="top" style="padding: 0in 5.4pt;">
+                                </td>
+                                <td valign="top" style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><br></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);">&nbsp;<span style="font-size: 11pt; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td valign="top" style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);">&nbsp;<span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td valign="top" style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);">&nbsp;<span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td valign="top" style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);">&nbsp;<span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; background-color: rgb(255, 255, 255);"><b style=""><font color="#ff0000">Macbeth</font><font color="#ff0000"><o:p></o:p></font></b></span></p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);"><i>Macbeth<o:p></o:p></i></span></p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);">Gallery Players Theater<o:p></o:p></span></p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);">New York, NY<o:p></o:p></span></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; color: red; background-color: rgb(255, 255, 255);"><b><span style="color: red;">Year One of the Empire</span>
+                                        <o:p></o:p>
+                                        </b>
+                                        </span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);"><i>Beveridge, et al<o:p></o:p></i></span></p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);">Metropolitan Playhouse<o:p></o:p></span></p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);">New York, NY<o:p></o:p></span></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; color: red; background-color: rgb(255, 255, 255);"><b><span style="color: red;">The Pioneer</span>
+                                        <o:p></o:p>
+                                        </b>
+                                        </span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);"><i>Man #4 (3 Roles)<o:p></o:p></i></span></p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);">Metropolitan Playhouse<o:p></o:p></span></p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);">New York, NY<o:p></o:p></span></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; color: red; background-color: rgb(255, 255, 255);"><b><span style="color: red;">Sessions</span>
+                                        <o:p></o:p>
+                                        </b>
+                                        </span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);"><i>Dylan<o:p></o:p></i></span></p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);">Peter Jay Sharp Theater<o:p></o:p></span></p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);">New York, NY<o:p></o:p></span></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; color: red;"><span style="font-family: &quot;Times New Roman&quot;; color: red;"><b>Aida</b></span></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;"><i>Radames</i></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;<o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">Playhouse on the Square&nbsp;</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">Memphis, TN</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; color: red; background-color: rgb(255, 255, 255);"><span style="font-family: &quot;Times New Roman&quot;; color: red;"><b>The Full Monty</b></span>
+                                        <o:p></o:p>
+                                        </span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;"><i>Keno/Ethan/D.C.</i></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">&nbsp;<o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">First National Tour</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">U.S., Canada, and Japan</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; color: red;"><span style="font-family: &quot;Times New Roman&quot;; color: red;"><b>Footloose</b></span></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;"><i>Lyle/Chuck</i></span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">National Tour</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">U.S.</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; color: red;"><span style="font-family: &quot;Times New Roman&quot;; color: red;"><b>Pump Boys &amp; Dinettes</b></span></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;"><i>Jackson</i></span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">PA Center Stage</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">State College, PA</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; color: red;"><span style="font-family: &quot;Times New Roman&quot;; color: red;"><b>Into the Woods</b></span></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;"><i>Jack</i></span><span style="font-size: 11pt;"><i><o:p></o:p></i></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">Pitts. CLO &amp; Sacramento Light Opera</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">Pittsburgh, PA &amp; Sacramento, CA</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; color: red;"><span style="font-family: &quot;Times New Roman&quot;; color: red;"><b>West Side Story</b></span></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;">Riff &amp; Action</span><span style="font-size: 11pt; color: windowtext;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;">Human Race &amp; MUNY St. Louis</span><span style="font-size: 11pt; color: windowtext;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;">Dayton, OH &amp; St. Louis, MO</span><span style="font-size: 11pt; color: windowtext;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; color: red;"><span style="font-family: &quot;Times New Roman&quot;; color: red;"><b>The Who’s Tommy</b></span></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;">Tommy</span><span style="font-size: 11pt; color: windowtext;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;">Playhouse on the Square</span><span style="font-size: 11pt; color: windowtext;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;">Memphis, TN</span><span style="font-size: 11pt; color: windowtext;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; color: red;"><span style="font-family: &quot;Times New Roman&quot;; color: red;"><b>Die Schone und das Biest</b></span></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;">Der Sessel</span><span style="font-size: 11pt; color: windowtext;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;">European Tour</span><span style="font-size: 11pt; color: windowtext;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;">Germany, Austria, Switzerland, &amp; Italy</span><span style="font-size: 11pt; color: windowtext;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; color: red; background-color: rgb(255, 255, 255);"><span style="font-family: &quot;Times New Roman&quot;; color: red;"><b>Pippin</b></span><u><o:p></o:p></u></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;"><i>Leading Player</i></span><span style="font-size: 11pt;"><i><o:p></o:p></i></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">Kresge Theater, Carnegie Mellon</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;">Joe Deer – Master’s Thesis</span><span style="font-size: 11pt; color: windowtext;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);">&nbsp;<span style="font-size: 11pt; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);">&nbsp;<span style="font-size: 11pt; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);">&nbsp;<span style="font-size: 11pt; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);">&nbsp;<span style="font-size: 11pt; color: red;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; color: red;"><u><span style="font-family: &quot;Times New Roman&quot;; color: red;"><b>Carnegie Mellon University</b></span></u>
+                                        </span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;"><u><o:p></o:p></u></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;"><b><u>Pittsburgh, PA</u></b></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;"><u><o:p></o:p></u></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);">&nbsp;<span style="font-size: 11pt; color: windowtext;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; color: windowtext;"><u>Director</u></span><span style="font-size: 11pt; color: windowtext;"><u><o:p></o:p></u></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">THE SWAN&nbsp;</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;"><i>The Swan</i></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">Studio Theater</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">Marjorie Hayes – Master's Thesis</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">SWEENEY TODD</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;"><i>Ensemble/Tenor</i></span><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">&nbsp;<o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">Kresge Theater</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">J. Ranelli</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">DANCING AT LUGHNASA</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;"><i>Gerry Evans</i></span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="background-color: rgb(255, 255, 255);"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;;">Studio Theater</span><span style="font-size: 11pt;"><o:p></o:p></span></span>
+                                    </p>
+                                </td>
+                                <td style="padding: 0in 5.4pt;">
+                                    <p class="MsoNormal" style="margin-right: 0in; margin-left: 0in; font-size: 12pt;"><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;; background-color: rgb(255, 255, 255);">Don Wadsworth</span></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1509889598617-3" class="editable-style text-element button silex-id-1509889598617-3 page-reviews paged-element" data-silex-type="text" style="" data-silex-href="#!page-home">
+                <div class="silex-element-content normal">
+                    <div style="text-align: center;">Home</div>
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1509890263218-0 html-element silex-component silex-component-slideshow silex-use-height-not-minheight page-pg1 paged-element" data-silex-id="silex-id-1509890263218-0" style="">
+                <div class="silex-element-content">
+                    <div id="parent_1509890398074_810">
+                        <!-- preview -->
+                        <div class="prodotype-preview">
+
+                            <div class="preview-text prodotype-force-size">
+                                <p>~ Preview ~</p>
+                            </div>
+                            <figure class="slide-0">
+                                <div class="slide-image prodotype-force-size">
+
+                                </div>
+                            </figure>
+
+                        </div>
+                        <div id="id_1509890398074_810">
+                            <!-- runtime -->
+                            <!-- the whole slideshow -->
+                            <ul class="prodotype-runtime">
+
+                                <li>
+                                    <figure class="slide-0">
+
+                                        <div class="slide-image">
+
+                                        </div>
+
+                                    </figure>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <style type="text/css">
+                        /* *********************** */
+                        /* "Preview" label always on top of the slideshow in silex */
+                        
+                        #parent_1509890398074_810 .prodotype-preview {
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        #parent_1509890398074_810 .prodotype-preview .preview-text {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        
+                        #parent_1509890398074_810 .prodotype-preview .preview-text p {
+                            z-index: 1;
+                            background-color: black;
+                            color: white;
+                        }
+                        /* *********************** */
+                        /* styles for each slide */
+                        
+                        #parent_1509890398074_810 .slide-0 .slide-image {
+                            background-color: #ffffff;
+                            background-image: url('image008.png');
+                        }
+                        /* *********************** */
+                        /* styles for all the slides */
+                        
+                        #parent_1509890398074_810 .slide-image {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: 50%;
+                            align-items: flex-end;
+                            justify-content: center;
+                        }
+                        
+                        #parent_1509890398074_810 figcaption {
+                            padding: 50px;
+                            color: white;
+                            background-color: rgba(0, 0, 0, 0.5);
+                            width: 100%;
+                            text-align: center;
+                        }
+                        /* *********************** */
+                        /* UI style */
+                        
+                        #parent_1509890398074_810 .unslider-nav {
+                            position: absolute;
+                            bottom: 10px;
+                            left: 0;
+                            right: 0;
+                            top: auto;
+                            margin: 0;
+                        }
+                        
+                        #parent_1509890398074_810 .unslider-nav ol {
+                            text-align: center;
+                        }
+                        
+                        #parent_1509890398074_810 .unslider-nav ol li.unslider-active {
+                            background: #fff;
+                            cursor: default;
+                            opacity: 1;
+                        }
+                        
+                        #parent_1509890398074_810 .unslider-nav ol li {
+                            display: inline-block;
+                            float: none;
+                            width: 6px;
+                            height: 6px;
+                            margin: 0 4px;
+                            padding: 3px;
+                            background: transparent;
+                            border-radius: 10px;
+                            overflow: hidden;
+                            text-indent: -999em;
+                            border: 2px solid #fff;
+                            cursor: pointer;
+                            opacity: .4;
+                        }
+                        
+                        #parent_1509890398074_810 .unslider-arrow {
+                            display: block;
+                            width: 32px;
+                            height: 32px;
+                            top: 50%;
+                            right: 16px;
+                            left: auto;
+                            margin-top: -16px;
+                            overflow: hidden;
+                            background: rgba(0, 0, 0, .2) no-repeat 50% 50%;
+                            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==');
+                            background-size: 7px 11px;
+                            border-radius: 32px;
+                            text-indent: -999em;
+                            opacity: .6;
+                            transition: opacity .2s;
+                        }
+                        
+                        #parent_1509890398074_810 .unslider-arrow.prev {
+                            left: 16px;
+                            right: auto;
+                            -ms-transform: rotate(-180deg);
+                            transform: rotate(-180deg);
+                        }
+                        /* *********************** */
+                    </style>
+                    <script type="text/javascript">
+                        (function() {
+                            function initUnslider() {
+                              // do not start in the editor (it would mess with the markup)
+                              if(!$('body').hasClass('silex-runtime')) return;
+                        
+                              var slider = $('#id_1509890398074_810').unslider({
+                                'autoplay': false,
+                                'speed': 750,
+                                'delay': 3000,
+                                'index': 0,
+                                'nav': true,
+                                'animation': 'horizontal',
+                                'arrows': true
+                              });
+                              //  Listen to slide changes
+                              
+                              // apply element height to the images
+                              var silexElement = $('#id_1509890398074_810').closest('.editable-style');
+                              var elementMinHeight = silexElement.css('height');
+                              var elementWidth = silexElement.css('width');
+                              $('#id_1509890398074_810 li .slide-image').css({
+                                'height': elementMinHeight
+                              });
+                              
+                          }
+                            initUnslider();
+                          })();
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div data-silex-id="silex-id-1440798669277-2" class="editable-style silex-id-1440798669277-2 image-element" data-silex-type="image" style="">
+            <img src="pawn.png" class="silex-element-content"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="silex-pages">
+        <div data-silex-type="image" data-silex-id="silex-id-hamburger-menu" class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable"><img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII="
+                class="silex-element-content"></div><a id="page-home" data-silex-type="page" class="page-element">Home</a>
+
+        <a id="page-resume" data-silex-type="page" class="page-element">Resume</a><a id="page-reviews" data-silex-type="page" class="page-element page-link-active">Reviews</a><a id="page-pg1" data-silex-type="page" class="page-element">PG1</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container" class="editable-style silex-id-1509826490116-24 container-element page-resume paged-element" data-silex-id="silex-id-1509826490116-24" style="">
+        <div data-silex-id="silex-id-1509826375154-20" class="editable-style text-element silex-id-1509826375154-20" data-silex-type="text" style="">
+            <div class="silex-element-content normal">
+                <div style="text-align: center;">
+                    <font size="1" face="Sarina">Pictures and template are Creative Commons
+                        <br>Pictures are labeled for noncommercial reuse
+                        <br>Template created by <a href="//lexoyo.me/" style="">@lexoyo</a> with <a href="//www.silex.me/" style="">Silex, free website builder</a>
+                    </font><br>
+                </div>
+            </div>
+        </div>
+        <div data-silex-id="silex-id-1509826375154-23" class="editable-style text-element button silex-id-1509826375154-23" data-silex-type="text" style="">
+            <div class="silex-element-content normal">
+                <div style="text-align: center;">Resume</div>
+            </div>
+        </div>
+        <div data-silex-id="silex-id-1509826375154-21" class="editable-style text-element button silex-id-1509826375154-21" data-silex-type="text" style="">
+            <div class="silex-element-content normal">
+                <div style="text-align: center;">Reviews</div>
+            </div>
+        </div>
+        <div data-silex-id="silex-id-1509826375154-19" class="editable-style text-element button silex-id-1509826375154-19" data-silex-type="text" style="">
+            <div class="silex-element-content normal">
+                <div style="text-align: center;">Music</div>
+            </div>
+        </div>
+    </div>
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style section-element silex-id-1509826594381-25 page-home paged-element" data-silex-id="silex-id-1509826594381-25">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-container-content container-element prevent-draggable silex-id-1509826594381-26" data-silex-id="silex-id-1509826594381-26">
+
+
+            <div data-silex-id="silex-id-1509826594381-27" class="editable-style text-element button silex-id-1509826594381-27" data-silex-type="text">
+                <div class="silex-element-content normal">
+                    <div style="text-align: center;">Music</div>
+                </div>
+            </div>
+
+
+
+
+            <div data-silex-id="silex-id-1509826594381-28" class="editable-style text-element silex-id-1509826594381-28" data-silex-type="text" style="">
+                <div class="silex-element-content normal">
+                    <div style="text-align: center;">
+                        <font size="1" face="Titillium Web">Pictures and template are Creative Commons
+                            <br>Pictures are labeled for noncommercial reuse
+                            <br>Template created by <a href="//lexoyo.me/">@lexoyo</a> with <a href="//www.silex.me/">Silex, free website builder</a>
+                        </font><br>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1509826594381-29" class="editable-style text-element button silex-id-1509826594381-29" data-silex-type="text" style="">
+                <div class="silex-element-content normal">
+                    <div style="text-align: center;">Reviews</div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1509826594381-30" class="editable-style text-element button paged-element page-home silex-id-1509826594381-30" data-silex-type="text" style="" data-silex-href="#!page-resume">
+                <div class="silex-element-content normal">
+                    <div style="text-align: center;">Resume</div>
+                </div>
+            </div>
+            <div data-silex-id="silex-id-1509826594382-31" class="editable-style text-element button page-resume paged-element silex-id-1509826594382-31" data-silex-type="text" style="">
+                <div class="silex-element-content normal">
+                    <div style="text-align: center;">Resume</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
